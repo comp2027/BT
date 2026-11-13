@@ -27,7 +27,7 @@ contract SimpleBank {
         require(success, "Transfer failed");
 
         return balances[msg.sender];
-    }
+    } 
 
     // Show the balance of the caller
     function balance() public view returns (uint) {
